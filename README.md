@@ -14,15 +14,16 @@ pip3 install keras
 pip3 install numpy pandas matplotlib opencv-python
 ```
 ### Preparing for training ###
-First of all to start ```distributionByCatalog.ipynb ``` - if your the set of images is not ordered this file can to share pictures to catalogs.
-``` imgTransform.ipynb ``` - get images different size and transforming to the same size, preserving the aspect ratio.
+```distributionByCatalog.ipynb ``` - if your set of images is not ordered, this file can to share pictures to catalogs.
 
-### Train and other ###
-``` train.ipynb ``` - contains the training code.
+``` imgTransform.ipynb ``` - get images different size and transforming to the same size (this size must match the size of the input layer of the neural network), preserving the aspect ratio.
 
-``` test.ipynb ``` - we can test our model.
+### Train and test ###
+``` train.ipynb ``` - contains the training code. At this stage, several model variants are saved in the training process.
 
-Also ``` slideWindow.ipynb ``` - we can look at result of train on separate image and sliding the window on one large image (size of window can be setting).
+``` test.ipynb ``` - testing saved models and choose with the best result. Also display predict information of every picture from test set.
+
+``` slideWindow.ipynb ``` - demonstration detection bakery on image. The sliding window method was used to detect bakery products in a large image (size of window can be setting).
 
 ### Pretrained Weights ###
 ``` modelWork.h5``` - saved weights

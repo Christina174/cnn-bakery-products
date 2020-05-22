@@ -19,9 +19,12 @@ First of all to start ```distributionByCatalog.ipynb ``` - if your the set of im
 
 ### Train and other ###
 ``` train.ipynb ``` - contains the training code.
+
 ``` test.ipynb ``` - we can test our model.
+
 Also ``` slideWindow.ipynb ``` - we can look at result of train on separate image and sliding the window on one large image (size of window can be setting).
 
 ### Pretrained Weights ###
 ``` modelWork.h5``` - saved weights
+
 ``` modelWork.json ``` - saved architecture of neural net

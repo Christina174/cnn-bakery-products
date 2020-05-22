@@ -5,7 +5,7 @@ This repository contains a neural network for recognizing certain types of baker
 # Setup #
 
 ### Packages ###
-* Keras (and use TensorFlow as a backend)
+* Keras (and use TensorFlow as a backend, ver. 1.14)
 ```bash
 pip3 install keras
 ```
@@ -27,4 +27,4 @@ Also ``` slideWindow.ipynb ``` - we can look at result of train on separate imag
 ### Pretrained Weights ###
 ``` modelWork.h5``` - saved weights
 
-``` modelWork.json ``` - saved architecture of neural net
+``` modelWork.json ``` - saved architecture of neural network
